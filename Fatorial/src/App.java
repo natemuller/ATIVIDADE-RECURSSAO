@@ -9,6 +9,6 @@ public class App {
     }
     public static void main(String[] args) throws Exception {
         int num = Integer.parseInt(args[0]);
-        System.out.printf("%d\n", Fatorial(int num));
+        System.out.printf("%d\n", Fatorial(num));
     }
 }
