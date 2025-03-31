@@ -4,10 +4,11 @@ public class App {
         if (num == 0) {
             return 1;
         } else {
-            return num * Fatorial(num - 1);
+            return num * Fatorial (num - 1);
         }
     }
     public static void main(String[] args) throws Exception {
-        Fatorial(29);
+        int num = Integer.parseInt(args[0]);
+        System.out.printf("%d\n", Fatorial(int num));
     }
 }
